@@ -43,5 +43,7 @@ svg{
 }
 
 a {
-  color: honeydew;
+  color: darkcyan;
+  font-size: large;
+  text-decoration: none;
 }
