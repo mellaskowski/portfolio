@@ -1,12 +1,77 @@
-/*body {
-	 background-color: #efebe0;
-  font-family: Greenhouse,sans-serif;
-	font-size: 55px;
-	background-color: #010a01;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}*/
+h3 {
+  padding-left: 15px;
+  color: #852999;
+  outline-color: black;
+  font-size: large;
+  border: solid 1.75px;
+  text-align: center;
+  background-color: #fcb6ea;
+
+  border-radius: 15px 15px 15px 15px;
+  width: 20%;
+
+
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+.button {
+  color: #852999;
+  border: solid 1.75px;
+  text-align: center;
+  background-color: #fcb6ea;
+  border-radius: 15px 15px 15px 15px;
+  width: 14%;
+
+
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+body{
+  background: #F5D5AE;  
+/*  font-family: Greenhouse,sans-serif;*/
+  color: #824426;
+}
+
+svg{
+  position: absolute;
+  top: 0;
+}
+
+a {
+  color: darkcyan;
+  font-size: large;
+  text-decoration: none;
+  align-content: center;
+}
+.section-box {
+  box-sizing: border-box;
+
+}
+
+ol {
+  padding-inline-start: 0px;
+}
+
+footer {
+  position: fixed;
+  height: 45px;
+}
+
+p {
+  max-width: 700px;
+  padding-left: 30px;
+  font-family: 'Italiana';
+  font-size: medium;
+}
+
 .big-bold-text {
 width: 100%;
 height: 94px;
@@ -43,57 +108,6 @@ margin: 0 45 0 45;
   font-size: 30px;
 }
 
-
-  .header-button {
-    color: #824426;
-    border: solid 1.75px;
-    background-color: #fcb6ea;
-    border-radius: 15px 15px 15px 15px;
-    width: 14%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-h3 {
-  padding-left: 15px;
-  color: #AAC4FF;
-  outline-color: black;
-  font-size: medium;
-  font-family: Greenhouse,sans-serif;
-}
-
-body{
-  background: #efebe0;  
-  font-family: Greenhouse,sans-serif;
-  color: #824426;
-}
-
-svg{
-  position: absolute;
-  top: 0;
-}
-
-a {
-  color: darkcyan;
-  font-size: large;
-  text-decoration: none;
-  align-content: center;
-}
-
-ol {
-  padding-inline-start: 0px;
-}
-
-footer {
-  position: fixed;
-  padding-top: 10%;
-}
-
-p {
-  max-width: 700px;
-  padding-left: 30px;
-  font-family: 'Italiana';
-}
 
 .thick_font {
   font-family: Blippo, fantasy;
