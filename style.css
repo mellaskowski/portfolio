@@ -2,12 +2,13 @@
   /**
    * 
    * colors are in gradient order
-   * 
-   * 
+   *
    **/
   --purple:  #852999;
+  --marron: #b34797;
   --purple-pink: #EA8FEA;
   --hot-pink: #fcb6ea;
+  --barbie-pink: #FFBDF7;
   --hotter-pink: #FF78C4;
 
 
@@ -20,15 +21,23 @@
   --brown: #824426;
 }
 
+body{
+  background-color: var(--light-pink);
+  /*background: #F5D5AE;  */
+/*  font-family: Greenhouse,sans-serif;*/
+  color: var(--marron);
+}
+
 h1 {
 width: 100%;
-font-family: Jazz LET, fantasy;
+font-family: Georgia;
 font-weight: 500;
+font-size: xxx-large;
 /*line-height: 113px;*/
 padding-right: 15px;
 padding-left: 10px;
 
-color: var(--dark-pink);
+color: var(--hotter-pink);
 }
 
 h2 {
@@ -36,16 +45,31 @@ h2 {
 }
 
 .button {
-  color: #852999;
+  color: var(--purple);
   border: solid 1.75px;
   text-align: center;
-  background-color: #fcb6ea;
+  background-color: var(--hot-pink);
   border-radius: 15px 15px 15px 15px;
   width: 14%;
 
-
   padding-top: 10px;
   padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+.border-box {
+    color: var(--purple);
+  border: solid 1.75px;
+  text-align: center;
+  background-color: var(--hot-pink);
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  width: 55%;
+
+    padding-top: 10px;
+  padding-left: 25px;
   padding-right: 5px;
   padding-bottom: 10px;
   margin-right: 20px;
@@ -57,7 +81,6 @@ h3 {
   font-size: large;
   border: solid 1.65px;
   text-align: center;
-  /*background-color: #fcb6ea;*/
   background-color: var(--hot-pink);
   border-radius: 15px 15px 15px 15px;
   width: 20%;
@@ -67,13 +90,6 @@ h3 {
   padding-right: 5px;
   padding-bottom: 10px;
   margin-right: 20px;
-}
-
-body{
-  background-color: var(--pink-cream);
-  /*background: #F5D5AE;  */
-/*  font-family: Greenhouse,sans-serif;*/
-  color: #824426;
 }
 
 svg{
