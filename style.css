@@ -197,6 +197,7 @@ p {
 .project {
   padding-left: 20px;
   font-size: 18px;
+  line-height: 25px;
   .links {
   border: solid 0.75px;
   text-align: center;
