@@ -114,7 +114,8 @@ a {
 }
 .section-box {
   box-sizing: border-box;
-
+  margin-top: 10px;
+/*  margin-bottom: 25px;*/
 }
 
 ul {
