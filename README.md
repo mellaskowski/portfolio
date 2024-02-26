@@ -1,3 +1,4 @@
 # Portfolio Repo
 
-View the site at: https://mellaskowski.github.io/portfolio/ 
+Hey, I'm Mel. Check out some info about me:
+The project is hosted at: https://mellaskowski.github.io/portfolio/ 
