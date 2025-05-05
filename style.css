@@ -21,6 +21,10 @@
   --brown: #824426;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: var(--pink-cream);
   /*background: #F5D5AE;  */
@@ -102,7 +106,6 @@ h3 {
 }
 
 svg{
-/*  position: absolute;*/
   top: 0;
 }
 
@@ -115,7 +118,11 @@ a {
 .section-box {
   box-sizing: border-box;
   margin-top: 10px;
-/*  margin-bottom: 25px;*/
+  margin-bottom: 25px;
+}
+
+.resume-pdf {
+  align-content: end;
 }
 
 ul {
@@ -149,7 +156,7 @@ p {
   color: #824426;
   font-size: 30px;
   margin-top: -25px;
-  padding-bottom: 19px;
+  padding-bottom: 25px;
   width: auto;
   padding-left: 0px;
   margin-left: 0px;
@@ -163,25 +170,15 @@ p {
 .right_leaning_text {
   text-align: right;
 }
+
 .bottom_space {
   padding-left: 20%;
   padding-bottom: 25%;
 }
 
-.fun_text {
-  font-family: Apple Chancery, cursive;
-  font-weight: 400;
-  font-size: 55px;
-  color: #b34797;
-  margin-left: 45px;
-  margin-top: 44px;
-}
-
 .mono_text {
   font-family: OCR A Std, monospace;
   color: #AAC4FF;
-/*  color: #dbd688;*/
-/*  background-color: #AAC4FF;*/
   font-weight: 400;
   font-size: 60px;
   padding-left: 65px;
@@ -216,6 +213,7 @@ p {
 
 .contact-text {
   padding-left: 18px;
+  text-align: center;
   .span {
     font-size: 22px;
   }
@@ -223,7 +221,6 @@ p {
   .button {
     color: var(--purple);
     border: solid 1.75px;
-    text-align: center;
     background-color: var(--dark-pink);
     border-radius: 15px 15px 15px 15px;
     font-size: 16px;
