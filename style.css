@@ -90,7 +90,6 @@ h2 {
 
 h3 {
   color: var(--purple);
-  outline-color: black;
   font-size: 24px;
   border: solid 2.65px;
   text-align: center;
@@ -103,6 +102,8 @@ h3 {
   padding-right: 5px;
   padding-bottom: 10px;
   margin-right: 20px;
+  margin-left: 5px;
+  margin-bottom: 4px;
 }
 
 svg{
@@ -117,8 +118,24 @@ a {
 }
 .section-box {
   box-sizing: border-box;
+
   margin-top: 10px;
   margin-bottom: 25px;
+}
+
+.content-box {
+  background-color: white;
+  border-top: #b34797;
+  border: solid 1.75px;
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+  box-shadow: 5px 5px;
+}
+
+.name-title {
+  max-height: 600px;
+  margin-top: -23px;
+  align-self: start;
 }
 
 .resume-pdf {
@@ -154,6 +171,7 @@ p {
 .header-options {
   text-align: center;
   color: #824426;
+  line-height: normal + 10px;
   font-size: 30px;
   margin-top: -25px;
   padding-bottom: 25px;
