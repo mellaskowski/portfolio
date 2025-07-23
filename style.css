@@ -257,6 +257,7 @@ p {
 .contact-text {
   padding-left: 18px;
   text-align: center;
+  display: flex;
   .span {
     font-size: 22px;
   }
