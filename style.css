@@ -38,14 +38,14 @@ body{
 
 h1 {
 width: 100%;
-font-family: Georgia;
-font-weight: 500;
-font-size: xxx-large;
+font-family: open-sanas, sans-serif;
+font-weight: 900;
+font-size: 120px;
 /*line-height: 113px;*/
 padding-right: 15px;
 padding-left: 10px;
 
-color: var(--hotter-pink);
+color: black;
 }
 
 h2 {
@@ -180,12 +180,23 @@ p {
  white-space: normal;
 }
 
+.header {
+  display: grid;
+  color: black;
+  border: solid 5px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 15px 15px;
+  text-align: center;
+}
+
 .header-options {
   text-align: center;
   color: #824426;
   line-height: normal + 10px;
   font-size: 30px;
-  margin-top: -25px;
+ 
   padding-bottom: 25px;
   width: auto;
   padding-left: 0px;
@@ -261,3 +272,8 @@ p {
 
   }
 
+.line {
+  height: 20px;
+  background-color: white;
+  border-bottom: 5px solid black;
+}
