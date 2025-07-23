@@ -229,6 +229,12 @@ p {
   }
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+  /* margin-left: 20px; */
+}
+
 .contact-text {
   padding-left: 18px;
   text-align: center;
