@@ -120,6 +120,16 @@ h4 {
 
 }
 
+.web-header-text {
+  text-align: center;
+  font-family: open-sanas, sans-serif;
+  font-weight: 300;
+  /* font-size: 120px; */
+  color: black;
+  overflow: break-word;
+  overflow-wrap: anywhere;
+}
+
 svg{
   top: 0;
 }
@@ -281,4 +291,5 @@ p {
   border-bottom: 5px solid black;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  align-content: center;
 }
