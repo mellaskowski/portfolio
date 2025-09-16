@@ -120,16 +120,6 @@ h4 {
 
 }
 
-.web-header-text {
-  text-align: center;
-  font-family: open-sanas, sans-serif;
-  font-weight: 400;
-  /* font-size: 120px; */
-  color: black;
-  overflow: break-word;
-  overflow-wrap: anywhere;
-}
-
 svg{
   top: 0;
 }
@@ -292,4 +282,14 @@ p {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   align-content: center;
+  padding-top: 10px;
+}
+
+
+.web-header-text {
+  text-align: center;
+  font-family: open-sanas, sans-serif;
+  font-weight: 400;
+  color: black;
+  overflow-wrap: anywhere;
 }
